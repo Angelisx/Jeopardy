@@ -42,6 +42,7 @@ function renderQuestions() {
   // Add code here
   for (let i = 0; i < categories.length; i++) {
     let valueHtml = "<div class='questions-column'> ";
+
     for (let value of questionValues) {
       valueHtml +=
         "<div class='question-cell' data-category='" +
