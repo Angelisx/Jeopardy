@@ -55,6 +55,5 @@ function renderQuestions() {
     valueHtml += "</div>";
 
     $("#questions").append(valueHtml);
-    console.log(valueHtml);
   }
 }
